@@ -1,0 +1,31 @@
+.photo {
+    position: relative;
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: filter 0.3s ease;
+}
+
+.blur {
+    filter: blur(15px);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
