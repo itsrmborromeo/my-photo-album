@@ -1,0 +1,2 @@
+# my-photo-album
+ init
